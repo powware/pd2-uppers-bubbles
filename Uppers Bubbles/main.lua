@@ -271,7 +271,7 @@ function UppersBubbles.SetupHooks()
             function MenuCallbackHandler:uppers_bubbles_default_callback(item)
                 MenuHelper:ResetItemsToDefaultValue(
                     item,
-                    {["uppers_bubbles_red"] = true},
+                    {["uppers_bubbles_opacity"] = true},
                     UppersBubbles.default_settings.opacity
                 )
 
